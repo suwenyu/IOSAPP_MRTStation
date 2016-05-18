@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1657E6846A6B15A08C2EA83B /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7683E97B06E7FB439F4443 /* Pods_Contacts.framework */; };
 		2EC0F0EB1CBF7C9D00ADAC33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0F0EA1CBF7C9D00ADAC33 /* AppDelegate.swift */; };
-		2EC0F0ED1CBF7C9D00ADAC33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC0F0EC1CBF7C9D00ADAC33 /* ViewController.swift */; };
 		2EC0F0F01CBF7C9D00ADAC33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC0F0EE1CBF7C9D00ADAC33 /* Main.storyboard */; };
 		2EC0F0F21CBF7C9D00ADAC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC0F0F11CBF7C9D00ADAC33 /* Assets.xcassets */; };
 		2EC0F0F51CBF7C9D00ADAC33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC0F0F31CBF7C9D00ADAC33 /* LaunchScreen.storyboard */; };
+		2EC0F0FD1CBF7DBB00ADAC33 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EC0F0FC1CBF7DBB00ADAC33 /* contacts.json */; };
+		EF18D6EC1CDCC281001838BE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D6EB1CDCC281001838BE /* TableViewCell.swift */; };
+		EF18D6EE1CDE3D2F001838BE /* MRTDitailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D6ED1CDE3D2F001838BE /* MRTDitailViewController.swift */; };
+		EF38B4631CDC822800D618C8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38B4621CDC822800D618C8 /* TableViewController.swift */; };
+		EF5A32631CE321DB0016F471 /* MRT2DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A32621CE321DB0016F471 /* MRT2DetailViewController.swift */; };
+		EF98E34E1CDC7299009E098D /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF98E34D1CDC7299009E098D /* ObjectMapper.framework */; };
+		EF98E3501CDC7338009E098D /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = EF98E34F1CDC7338009E098D /* MRT.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EC0F0E71CBF7C9D00ADAC33 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC0F0EA1CBF7C9D00ADAC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EC0F0EC1CBF7C9D00ADAC33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EC0F0EF1CBF7C9D00ADAC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EC0F0F11CBF7C9D00ADAC33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EC0F0F41CBF7C9D00ADAC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EC0F0F61CBF7C9D00ADAC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC0F0FC1CBF7DBB00ADAC33 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		4B7683E97B06E7FB439F4443 /* Pods_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7846B931B91D31F1BCB8FFC3 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		84B99D8F4DED66643D3C7DA1 /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		EF18D6EB1CDCC281001838BE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EF18D6ED1CDE3D2F001838BE /* MRTDitailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTDitailViewController.swift; sourceTree = "<group>"; };
+		EF38B4621CDC822800D618C8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EF5A32621CE321DB0016F471 /* MRT2DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRT2DetailViewController.swift; sourceTree = "<group>"; };
+		EF98E34D1CDC7299009E098D /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "build/Debug-iphonesimulator/ObjectMapper.framework"; sourceTree = "<group>"; };
+		EF98E34F1CDC7338009E098D /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MRT.json; path = "../../HW2 Specs/MRT.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF98E34E1CDC7299009E098D /* ObjectMapper.framework in Frameworks */,
+				1657E6846A6B15A08C2EA83B /* Pods_Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029263622E6DC4869EEFAED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84B99D8F4DED66643D3C7DA1 /* Pods-Contacts.debug.xcconfig */,
+				7846B931B91D31F1BCB8FFC3 /* Pods-Contacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2EC0F0DE1CBF7C9D00ADAC33 = {
 			isa = PBXGroup;
 			children = (
 				2EC0F0E91CBF7C9D00ADAC33 /* Contacts */,
 				2EC0F0E81CBF7C9D00ADAC33 /* Products */,
+				029263622E6DC4869EEFAED7 /* Pods */,
+				4E19D535E0B7E48343AEF252 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +84,27 @@
 			isa = PBXGroup;
 			children = (
 				2EC0F0EA1CBF7C9D00ADAC33 /* AppDelegate.swift */,
-				2EC0F0EC1CBF7C9D00ADAC33 /* ViewController.swift */,
+				EF98E34F1CDC7338009E098D /* MRT.json */,
+				2EC0F0FC1CBF7DBB00ADAC33 /* contacts.json */,
 				2EC0F0EE1CBF7C9D00ADAC33 /* Main.storyboard */,
+				EF18D6ED1CDE3D2F001838BE /* MRTDitailViewController.swift */,
+				EF5A32621CE321DB0016F471 /* MRT2DetailViewController.swift */,
+				EF18D6EB1CDCC281001838BE /* TableViewCell.swift */,
+				EF38B4621CDC822800D618C8 /* TableViewController.swift */,
 				2EC0F0F11CBF7C9D00ADAC33 /* Assets.xcassets */,
 				2EC0F0F31CBF7C9D00ADAC33 /* LaunchScreen.storyboard */,
 				2EC0F0F61CBF7C9D00ADAC33 /* Info.plist */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		4E19D535E0B7E48343AEF252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF98E34D1CDC7299009E098D /* ObjectMapper.framework */,
+				4B7683E97B06E7FB439F4443 /* Pods_Contacts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EC0F0F91CBF7C9D00ADAC33 /* Build configuration list for PBXNativeTarget "Contacts" */;
 			buildPhases = (
+				92E730AFB59D8D17C3F17202 /* Check Pods Manifest.lock */,
 				2EC0F0E31CBF7C9D00ADAC33 /* Sources */,
 				2EC0F0E41CBF7C9D00ADAC33 /* Frameworks */,
 				2EC0F0E51CBF7C9D00ADAC33 /* Resources */,
+				4AC00E7CAD7B6B3C44F3B7A5 /* Embed Pods Frameworks */,
+				3389EC0707E2CDD0CA38AC32 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +168,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC0F0FD1CBF7DBB00ADAC33 /* contacts.json in Resources */,
 				2EC0F0F51CBF7C9D00ADAC33 /* LaunchScreen.storyboard in Resources */,
 				2EC0F0F21CBF7C9D00ADAC33 /* Assets.xcassets in Resources */,
 				2EC0F0F01CBF7C9D00ADAC33 /* Main.storyboard in Resources */,
+				EF98E3501CDC7338009E098D /* MRT.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3389EC0707E2CDD0CA38AC32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contacts/Pods-Contacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC00E7CAD7B6B3C44F3B7A5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contacts/Pods-Contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E730AFB59D8D17C3F17202 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2EC0F0E31CBF7C9D00ADAC33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EC0F0ED1CBF7C9D00ADAC33 /* ViewController.swift in Sources */,
+				EF5A32631CE321DB0016F471 /* MRT2DetailViewController.swift in Sources */,
+				EF18D6EC1CDCC281001838BE /* TableViewCell.swift in Sources */,
+				EF18D6EE1CDE3D2F001838BE /* MRTDitailViewController.swift in Sources */,
 				2EC0F0EB1CBF7C9D00ADAC33 /* AppDelegate.swift in Sources */,
+				EF38B4631CDC822800D618C8 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +346,13 @@
 		};
 		2EC0F0FA1CBF7C9D00ADAC33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B99D8F4DED66643D3C7DA1 /* Pods-Contacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.nccu.Contacts;
@@ -258,8 +362,13 @@
 		};
 		2EC0F0FB1CBF7C9D00ADAC33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7846B931B91D31F1BCB8FFC3 /* Pods-Contacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.nccu.Contacts;
@@ -286,6 +395,7 @@
 				2EC0F0FB1CBF7C9D00ADAC33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

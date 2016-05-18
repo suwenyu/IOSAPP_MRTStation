@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/WenYu/Desktop/Contacts1/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/WenYu/Desktop/Contacts1/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/Pods_Contacts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Contacts-umbrella.h",
+          'external-contents': "/Users/WenYu/Desktop/Contacts1/Pods/Target Support Files/Pods-Contacts/Pods-Contacts-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Contacts-Swift.h",
+          'external-contents': "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/Pods_Contacts.framework/Headers/Pods_Contacts-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/Pods_Contacts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/WenYu/Desktop/Contacts1/build/Pods.build/Debug-iphonesimulator/Pods-Contacts.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

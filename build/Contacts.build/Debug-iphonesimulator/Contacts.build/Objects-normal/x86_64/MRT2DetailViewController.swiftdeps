@@ -1,0 +1,397 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MRT2DitailViewController"
+provides-nominal:
+- "C8Contacts24MRT2DitailViewController"
+provides-member:
+- ["C8Contacts24MRT2DitailViewController", ""]
+provides-dynamic-lookup:
+- "LineNameLabel"
+- "Line2NameLable"
+- "viewWillAppear"
+- "MRTStationNameLabel"
+- "Line1NameLable"
+- "updateValues"
+depends-top-level:
+- !private "=="
+- !private "StringLiteralType"
+- !private "print"
+- "UILabel"
+- "Bool"
+- "Contact"
+- "UIViewController"
+- !private "UIColor"
+- !private "/"
+- "MRT2DitailViewController"
+depends-member:
+- ["Ps9AnyObject", "Line1NameLable"]
+- ["Ps9AnyObject", "Line2NameLable"]
+- ["Ps9AnyObject", "LineNameLabel"]
+- ["Ps9AnyObject", "MRTStationNameLabel"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isViewLoaded"]
+- ["Ps9AnyObject", "mrtstation"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "updateValues"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps11CVarArgType", "Line1NameLable"]
+- ["Ps11CVarArgType", "Line2NameLable"]
+- ["Ps11CVarArgType", "LineNameLabel"]
+- ["Ps11CVarArgType", "MRTStationNameLabel"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isViewLoaded"]
+- ["Ps11CVarArgType", "mrtstation"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "updateValues"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "enumerate"]
+- !private ["V8Contacts7Contact", "lines"]
+- !private ["V8Contacts7Contact", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "Line1NameLable"]
+- ["Ps28CustomDebugStringConvertible", "Line2NameLable"]
+- ["Ps28CustomDebugStringConvertible", "LineNameLabel"]
+- ["Ps28CustomDebugStringConvertible", "MRTStationNameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isViewLoaded"]
+- ["Ps28CustomDebugStringConvertible", "mrtstation"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "updateValues"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "Line1NameLable"]
+- ["Ps23CustomStringConvertible", "Line2NameLable"]
+- ["Ps23CustomStringConvertible", "LineNameLabel"]
+- ["Ps23CustomStringConvertible", "MRTStationNameLabel"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "enumerate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isViewLoaded"]
+- ["Ps23CustomStringConvertible", "mrtstation"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "updateValues"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Generator"]
+- !private ["Vs10Dictionary", "enumerate"]
+- !private ["Vs19DictionaryGenerator", "Element"]
+- !private ["Ps28DictionaryLiteralConvertible", "Generator"]
+- !private ["Ps28DictionaryLiteralConvertible", "enumerate"]
+- !private ["Vs18EnumerateGenerator", "Element"]
+- !private ["Vs17EnumerateSequence", "Generator"]
+- ["Ps9Equatable", "Line1NameLable"]
+- ["Ps9Equatable", "Line2NameLable"]
+- ["Ps9Equatable", "LineNameLabel"]
+- ["Ps9Equatable", "MRTStationNameLabel"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isViewLoaded"]
+- ["Ps9Equatable", "mrtstation"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "updateValues"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "Line1NameLable"]
+- ["Ps8Hashable", "Line2NameLable"]
+- ["Ps8Hashable", "LineNameLabel"]
+- ["Ps8Hashable", "MRTStationNameLabel"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isViewLoaded"]
+- ["Ps8Hashable", "mrtstation"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "updateValues"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "enumerate"]
+- ["C8Contacts24MRT2DitailViewController", "Bool"]
+- ["C8Contacts24MRT2DitailViewController", "Contact"]
+- ["C8Contacts24MRT2DitailViewController", "Line1NameLable"]
+- ["C8Contacts24MRT2DitailViewController", "Line2NameLable"]
+- ["C8Contacts24MRT2DitailViewController", "LineNameLabel"]
+- ["C8Contacts24MRT2DitailViewController", "MRTStationNameLabel"]
+- !private ["C8Contacts24MRT2DitailViewController", "UIColor"]
+- ["C8Contacts24MRT2DitailViewController", "UILabel"]
+- ["C8Contacts24MRT2DitailViewController", "deinit"]
+- ["C8Contacts24MRT2DitailViewController", "init"]
+- !private ["C8Contacts24MRT2DitailViewController", "isViewLoaded"]
+- ["C8Contacts24MRT2DitailViewController", "mrtstation"]
+- !private ["C8Contacts24MRT2DitailViewController", "print"]
+- ["C8Contacts24MRT2DitailViewController", "updateValues"]
+- ["C8Contacts24MRT2DitailViewController", "viewWillAppear"]
+- !private ["P12ObjectMapper8Mappable", "lines"]
+- !private ["P12ObjectMapper8Mappable", "name"]
+- ["PSo8NSCoding", "Line1NameLable"]
+- ["PSo8NSCoding", "Line2NameLable"]
+- ["PSo8NSCoding", "LineNameLabel"]
+- ["PSo8NSCoding", "MRTStationNameLabel"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isViewLoaded"]
+- ["PSo8NSCoding", "mrtstation"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateValues"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "Line1NameLable"]
+- ["PSo26NSExtensionRequestHandling", "Line2NameLable"]
+- ["PSo26NSExtensionRequestHandling", "LineNameLabel"]
+- ["PSo26NSExtensionRequestHandling", "MRTStationNameLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isViewLoaded"]
+- ["PSo26NSExtensionRequestHandling", "mrtstation"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "updateValues"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Contact"]
+- ["CSo8NSObject", "Line1NameLable"]
+- ["CSo8NSObject", "Line2NameLable"]
+- ["CSo8NSObject", "LineNameLabel"]
+- ["CSo8NSObject", "MRTStationNameLabel"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isViewLoaded"]
+- ["CSo8NSObject", "mrtstation"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateValues"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "Line1NameLable"]
+- ["PSo16NSObjectProtocol", "Line2NameLable"]
+- ["PSo16NSObjectProtocol", "LineNameLabel"]
+- ["PSo16NSObjectProtocol", "MRTStationNameLabel"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isViewLoaded"]
+- ["PSo16NSObjectProtocol", "mrtstation"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateValues"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "enumerate"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Line1NameLable"]
+- ["PSo21UIAppearanceContainer", "Line2NameLable"]
+- ["PSo21UIAppearanceContainer", "LineNameLabel"]
+- ["PSo21UIAppearanceContainer", "MRTStationNameLabel"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isViewLoaded"]
+- ["PSo21UIAppearanceContainer", "mrtstation"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateValues"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "init"]
+- ["PSo18UIContentContainer", "Line1NameLable"]
+- ["PSo18UIContentContainer", "Line2NameLable"]
+- ["PSo18UIContentContainer", "LineNameLabel"]
+- ["PSo18UIContentContainer", "MRTStationNameLabel"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isViewLoaded"]
+- ["PSo18UIContentContainer", "mrtstation"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "updateValues"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Line1NameLable"]
+- ["PSo18UIFocusEnvironment", "Line2NameLable"]
+- ["PSo18UIFocusEnvironment", "LineNameLabel"]
+- ["PSo18UIFocusEnvironment", "MRTStationNameLabel"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isViewLoaded"]
+- ["PSo18UIFocusEnvironment", "mrtstation"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateValues"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "backgroundColor"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Contact"]
+- ["CSo11UIResponder", "Line1NameLable"]
+- ["CSo11UIResponder", "Line2NameLable"]
+- ["CSo11UIResponder", "LineNameLabel"]
+- ["CSo11UIResponder", "MRTStationNameLabel"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isViewLoaded"]
+- ["CSo11UIResponder", "mrtstation"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateValues"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "Line1NameLable"]
+- ["PSo16UIStateRestoring", "Line2NameLable"]
+- ["PSo16UIStateRestoring", "LineNameLabel"]
+- ["PSo16UIStateRestoring", "MRTStationNameLabel"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isViewLoaded"]
+- ["PSo16UIStateRestoring", "mrtstation"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "updateValues"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "Line1NameLable"]
+- ["PSo18UITraitEnvironment", "Line2NameLable"]
+- ["PSo18UITraitEnvironment", "LineNameLabel"]
+- ["PSo18UITraitEnvironment", "MRTStationNameLabel"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isViewLoaded"]
+- ["PSo18UITraitEnvironment", "mrtstation"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateValues"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "Contact"]
+- ["CSo16UIViewController", "Line1NameLable"]
+- ["CSo16UIViewController", "Line2NameLable"]
+- ["CSo16UIViewController", "LineNameLabel"]
+- ["CSo16UIViewController", "MRTStationNameLabel"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isViewLoaded"]
+- ["CSo16UIViewController", "mrtstation"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "updateValues"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "enumerate"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "enumerate"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "V8Contacts7Contact"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs19DictionaryGenerator"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Vs18EnumerateGenerator"
+- !private "Vs17EnumerateSequence"
+- "Ps9Equatable"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- "C8Contacts24MRT2DitailViewController"
+- !private "P12ObjectMapper8Mappable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "Ps12SequenceType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/WenYu/Desktop/Contacts1/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "8bfd11acbb0f82d4dad3430e649fb1c9"

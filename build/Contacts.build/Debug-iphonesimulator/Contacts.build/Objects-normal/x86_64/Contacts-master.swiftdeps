@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "857843903646b9f7db9a59344cae973f"
+build_time: [516287099, 827013000]
+inputs:
+  "/Users/WenYu/Desktop/Contacts1/Contacts/MRT2DetailViewController.swift": [516273753, 0]
+  "/Users/WenYu/Desktop/Contacts1/Contacts/TableViewCell.swift": [516026517, 0]
+  "/Users/WenYu/Desktop/Contacts1/Contacts/MRTDitailViewController.swift": [516270380, 0]
+  "/Users/WenYu/Desktop/Contacts1/Contacts/AppDelegate.swift": [515848643, 0]
+  "/Users/WenYu/Desktop/Contacts1/Contacts/TableViewController.swift": [516287099, 0]
